@@ -4,23 +4,10 @@
 ## Tyler Higgs, June 2020
 
 
-$$
 
-\documentclass{article}
-\usepackage[utf8]{inputenc}
+1. Sub Problem
+    * $$x(i)$$ = find the smallest number of squared numbers which sum to $i$
 
-\title{Squares Sum Algorithm}
-\author{Tyler Higgs}
-\date{June 2020}
-
-\begin{document}
-
-\maketitle
-
-\section{Sub Problem}
-\begin{itemize}
-    \item $x(i)$ = find the smallest number of squared numbers which sum to $i$
-\end{itemize}
 \section{Relation}
 
 \begin{itemize}
