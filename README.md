@@ -1,4 +1,10 @@
-   <meta charset="utf-8" emacsmode="-*- markdown -*-"> <link rel="stylesheet" href="https://casual-effects.com/markdeep/latest/journal.css?">
+
+
+# Squares Sum Algorithm
+## Tyler Higgs, June 2020
+
+
+$$
 
 \documentclass{article}
 \usepackage[utf8]{inputenc}
@@ -47,8 +53,7 @@
     \item $O(n\sqrt{n})$ run-time
 \end{itemize}
 
+$$
+
 
 \end{document}
-
-<style class="fallback">body{visibility:hidden}</style><script>markdeepOptions={tocStyle:'medium'};</script>
-<!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
