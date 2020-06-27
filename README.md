@@ -1,23 +1,18 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 
-\title{Squares Sum Algorithm}
-\author{Tyler Higgs}
-\date{June 2020}
+# Squares Sum Algorithm
 
-\begin{document}
+## Tyler Higgs, June 2020
 
-\maketitle
 
-\section{Sub Problem}
-\begin{itemize}
-    \item $x(i)$ = find the smallest number of squared numbers which sum to $i$
-\end{itemize}
-\section{Relation}
 
-\begin{itemize}
-    \item $x(i) = 1 + \min \{x(i-j^2)\} \ \forall \  j \in \{1,...,\lfloor \sqrt{i} \rfloor \  \}$ 
-\end{itemize}
+1. Sub Problem
+	* $x(i)$ = find the smallest number of squared numbers which sum to $i$
+
+2. Relation
+
+    * $x(i) = 1 + \min \{x(i-j^2)\} \ \forall \  j \in \{1,...,\lfloor \sqrt{i} \rfloor \  \}$ 
 
 \section{Topological Order}
 
