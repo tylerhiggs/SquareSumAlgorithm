@@ -1,18 +1,25 @@
+   <meta charset="utf-8" emacsmode="-*- markdown -*-"> <link rel="stylesheet" href="https://casual-effects.com/markdeep/latest/journal.css?">
+
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 
-# Squares Sum Algorithm
+\title{Squares Sum Algorithm}
+\author{Tyler Higgs}
+\date{June 2020}
 
-## Tyler Higgs, June 2020
+\begin{document}
 
+\maketitle
 
+\section{Sub Problem}
+\begin{itemize}
+    \item $x(i)$ = find the smallest number of squared numbers which sum to $i$
+\end{itemize}
+\section{Relation}
 
-1. Sub Problem
-	* $x(i)$ = find the smallest number of squared numbers which sum to $i$
-
-2. Relation
-
-    * $x(i) = 1 + \min \{x(i-j^2)\} \ \forall \  j \in \{1,...,\lfloor \sqrt{i} \rfloor \  \}$ 
+\begin{itemize}
+    \item $x(i) = 1 + \min \{x(i-j^2)\} \ \forall \  j \in \{1,...,\lfloor \sqrt{i} \rfloor \  \}$ 
+\end{itemize}
 
 \section{Topological Order}
 
@@ -42,3 +49,6 @@
 
 
 \end{document}
+
+<style class="fallback">body{visibility:hidden}</style><script>markdeepOptions={tocStyle:'medium'};</script>
+<!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
