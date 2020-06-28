@@ -12,33 +12,21 @@
 
     * x(i) = 1 + min{ x(i-j^2) } ∀ j ∈ {1,...,floor(i^0.5) } 
 
-\section{Topological Order}
+3. Topological Order
 
-\begin{itemize}
-    \item $i$ always decreases
-\end{itemize}
+    * i always decreases
 
-\section{Base}
+4. Base
 
-\begin{itemize}
-    \item $x(0) = 0$
-\end{itemize}
+    * x(0) = 0
 
-\section{Original}
+5. Original
 
-\begin{itemize}
-    \item $x(n)$ gives the fewest number of square integers which sum to $n$
-\end{itemize}
+    * x(n) gives the fewest number of square integers which sum to n
 
-\section{Time}
+6. Time
 
-\begin{itemize}
-    \item $O(n)$ sub problems
-    \item $O(\sqrt{n})$ work done per sub problem
-    \item $O(n\sqrt{n})$ run-time
-\end{itemize}
+    * O(n) sub problems
+    * O(\sqrt{n}) work done per sub problem
+    * O(n\sqrt{n}) run-time
 
-$$
-
-
-\end{document}
