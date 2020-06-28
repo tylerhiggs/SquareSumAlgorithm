@@ -6,13 +6,11 @@
 
 
 1. Sub Problem
-    * $$x(i)$$ = find the smallest number of squared numbers which sum to $i$
+    * x(i) = find the smallest number of squared numbers which sum to i
 
-\section{Relation}
+2. Relation
 
-\begin{itemize}
-    \item $x(i) = 1 + \min \{x(i-j^2)\} \ \forall \  j \in \{1,...,\lfloor \sqrt{i} \rfloor \  \}$ 
-\end{itemize}
+    * x(i) = 1 + min{ x(i-j^2) } ∀ j ∈ {1,...,floor(i^0.5) } 
 
 \section{Topological Order}
 
