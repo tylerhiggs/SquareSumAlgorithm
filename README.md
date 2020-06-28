@@ -27,6 +27,6 @@
 6. Time
 
     * O(n) sub problems
-    * O(\sqrt{n}) work done per sub problem
-    * O(n\sqrt{n}) run-time
+    * O(n) work done per sub problem
+    * O(n^2) run-time
 
